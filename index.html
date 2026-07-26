@@ -780,6 +780,49 @@
                 min-height: 0;
             }
         }
+
+        /* Compact top page-title banner */
+        .site-banner {
+            min-height: 155px;
+        }
+
+        .banner-inner {
+            padding: 28px 0 22px;
+        }
+
+        .banner-kicker {
+            margin-bottom: 4px;
+            font-size: 0.68rem;
+        }
+
+        .site-banner h1 {
+            font-size: clamp(1.7rem, 4.2vw, 3rem);
+            line-height: 1;
+            letter-spacing: -0.04em;
+        }
+
+        .banner-spectrum {
+            height: 5px;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 760px) {
+            .site-banner {
+                min-height: 140px;
+            }
+
+            .banner-inner {
+                padding: 24px 0 19px;
+            }
+
+            .site-banner h1 {
+                font-size: clamp(1.55rem, 8vw, 2.35rem);
+            }
+
+            .banner-spectrum {
+                margin-top: 12px;
+            }
+        }
     </style>
     <meta
         content="shared full-width split breast-cancer block matching the parks split; breast images cropped to about half height and aligned to top; titles and category captions below; inline Base64 favicon"
